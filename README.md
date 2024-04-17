@@ -15,14 +15,10 @@ or use merging sort, selection sort or insertion sort
 ![image2](image.png)
 
 Example: <br>
-    <br>```
+    ```
     let mut arr = [10, 7, 8, 9, 1, 5]; 
-    ```<br>
     
-    <br>```
     quick_sort(&mut arr, &|a, b| a < b);
-    ```<br>
 
-    <br>```
     println!("Sorted array: {:?}", arr);
-    ```<br>
+    ```
