@@ -16,7 +16,9 @@ or use merging sort, selection sort or insertion sort
 
 Example: <br>
     ```
-    let mut arr = [10, 7, 8, 9, 1, 5];<br>
-    quick_sort(&mut arr, &|a, b| a < b);<br>
-    println!("Sorted array: {:?}", arr);<br>
+    let mut arr = [10, 7, 8, 9, 1, 5];
+    ```
+    quick_sort(&mut arr, &|a, b| a < b);
+    ```
+    println!("Sorted array: {:?}", arr);
     ```
